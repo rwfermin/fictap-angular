@@ -1,0 +1,94 @@
+/* Shared */
+
+/*** Works on common browsers ***/
+::selection {
+  background-color: #6e57e0;
+  color: #fff; 
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+  background-color: #6e57e0;
+  color: #fff; 
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+  background-color: #6e57e0;
+  color: #fff; 
+}
+
+::-ms-selection {
+  background-color: #6e57e0;
+  color: #fff; 
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+  background-color: #6e57e0;
+  color: #fff; 
+}
+
+img {
+  margin-bottom: 10px;
+  border: 0 !important;
+}
+
+
+.container, .container-fluid {
+    position: relative;
+}
+
+// fonts
+$text-uppercase: uppercase;
+$text-lowercase: lowercase;
+$text-capitalize: capitalize;
+
+.btn {
+	border-radius: 2px;
+} 
+
+.learn-more {
+	font-size: 16px;
+	font-weight: 600;
+	
+	i {
+		margin-right: 6px;
+	}
+}
+
+p {
+	line-height: 1.45em;
+	font-size: 16px;
+}
+
+ul {
+	li {
+		line-height: 1.4em;
+		padding-bottom: 7px;
+	}
+}
+
+.line {
+	margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid #eee;
+  max-width: 160px;
+  border-color: #0265b8;
+  border-width: 2px;
+	
+	&.white {
+		border-color: $very-light;
+	}
+  &.black {
+    border-color: $black;
+  }
+}
+
+.margintop_20 {
+  margin-top: 20px;
+}
+
+.nomargin_bottom {
+  margin-bottom: 0 !important;
+}

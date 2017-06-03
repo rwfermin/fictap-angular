@@ -1,0 +1,200 @@
+// mediaqueries
+
+// overriding existing
+@media (min-width: 992px) {
+	
+}
+
+
+@media (max-width: 991px) {
+
+	h1, h2, h3, h4, h5, h6 {
+		letter-spacing: 1px;
+	}
+	
+	p {
+		font-size: 14px;
+		line-height: 1.42em;
+	}
+
+	.navbar-default .navbar-header .brand-img {
+		height: 60px;
+		padding-left: 15px;
+	}
+	.navbar-default .nav li a {
+		font-size: 14px;
+	}
+	.navbar-nav>li>a {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		line-height: 18px;
+	}
+	
+	section {
+		padding: 15px 10px;
+		margin-bottom: 15px;
+		
+		.section-title {
+		
+			h1 {
+				font-size: 28px;
+			}
+			
+			.line {
+				max-width: 100px;
+			}
+		
+			&.greetings {
+				h1 {
+					font-size: $section-title-greeting-min-font-size;
+					font-weight: normal;
+				}
+			}
+			
+			
+		}
+		
+	}
+	
+	.news-item {
+		height: auto;
+	}
+	
+	.intro {
+		padding-top: 0;
+	}
+	
+	.about-us, .events {
+		.section-title {
+			h1 {
+				text-align: center;
+			}
+			
+			.line {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+		
+		p {
+			font-size: 14px;
+		}
+	}
+	
+	.news {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	
+	.box-contents {
+		
+		div {
+			padding-bottom: 25px;
+		}
+		
+		.box-icon {
+			padding-bottom: 5px;
+			
+			i {
+				font-size: 22px;
+				margin-right: 0 !important;
+			}
+		}
+		
+		.box-caption {
+			h4 {
+				font-size: 18px;
+				margin-bottom: 0;
+			}
+			
+			p {
+				font-size: 14px;
+				line-height: 1.3;
+			}
+		}
+	
+	}
+	
+	.contact-list {
+		i {
+			height: 36px;
+			width: 36px;
+			font-size: 18px;
+		}
+		
+		span {
+			font-size: 16px;
+		}
+		
+	}
+	
+	.gallery-row {
+		h4 {
+			font-size: 15px;
+		}
+	}
+	
+	.gallery-column {
+		padding-bottom: 15px;
+	}
+	
+	.gallery-contents {
+		.album-title {
+			font-size: 18px;
+		}
+		.album-date {
+			font-size: 16px;
+		}
+		.album-venue {
+			font-size: 14px;
+		}
+	}
+	
+	.events {
+		.events-list {
+			table {
+				tbody {
+					tr {
+						td {
+							display: block;
+							padding: 3px 5px;
+							float: none;
+							
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	footer {
+		.col-xs-12 {
+			text-align: center;
+			margin-bottom: 15px;
+			
+			.footer-brand {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+		
+		.top-footer {
+			padding-top: 40px;
+			padding-bottom: 0;
+			
+			ul {
+				li {
+					padding-bottom: 0;
+				}
+			}
+		}
+		
+		.bottom-footer {
+			p {
+				font-size: 13px;
+			}
+		}
+	}
+	
+}

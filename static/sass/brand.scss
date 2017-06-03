@@ -1,0 +1,42 @@
+/* Main site brand styles */
+
+$brand-font: $source-font-stack;
+
+$body-default-text-color: $night-rider;
+$body-default-text-size: 14px;
+$body-default-link-color: $lochmara;
+$body-default-link-hover-color: $curious-blue;
+
+$top-head-background-color: $gainsboro;
+$top-head-font-color: $eclipse;
+$top-head-link-color: $eclipse;
+$top-head-link-hover-color: $night-rider;
+$top-head-vertical-padding: $top-padding;
+
+$nav-background-color: $whitesmoke;
+$nav-font: $lato-font-stack;
+$nav-font-size: 14px;
+$nav-link-color: $night-rider;
+$nav-link-hover-color: $blacker;
+$nav-link-hover-bgcolor: transparent;
+$nav-link-active-color: $resolution-blue;
+$nav-link-active-bgcolor: transparent;
+$nav-link-active-font-weight: bold;
+
+$nav-brand-font: $montserrat-font-stack;
+$nav-brand-font-color: $white;
+$nav-brand-font-size: 30px;
+
+$nav-toggle-icon-bar-bgcolor: $white;
+$nav-toggle-icon-bar-hover-bgcolor: $whitesmoke;
+
+$contents-background-color: $white;
+
+$heading-font: $slab-font-stack;
+$heading-font-case: none;
+
+
+// 1. Intro
+
+$intro-section-heading-font-size: $section-title-font-size
+$intro-section-margin: $section-title-margin;

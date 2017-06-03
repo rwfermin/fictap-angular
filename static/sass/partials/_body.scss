@@ -1,0 +1,555 @@
+.contents {
+	margin: $contents-margin;
+	padding: $contents-padding;
+	background-color: $contents-background-color;
+	position: relative;
+}
+
+/* sections */
+
+section {
+
+	position: relative;
+	display: block;
+	padding: $section-body-padding;
+	margin-bottom: $section-body-bottom-gap;
+	background-color: $section-body-bgcolor;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	.section-title {
+		position: relative;
+		display: block;
+		margin: $section-title-margin;
+		padding: $section-title-padding;
+		
+		h1 {
+			font-size: $section-title-heading-font-size;
+			color: $section-title-heading-default-color;
+		}
+		
+		hr {
+			background-color: $section-title-line-color;
+		}
+		
+		&.greetings {
+			h1 {
+				font-size: $section-title-greeting-font-size;
+				font-family: $section-title-greeting-font-stack;
+				text-align: center;
+				text-transform: none;
+			}
+		}
+	}
+	
+	&.even {
+		background-color: $section-body-alt-bgcolor;
+		
+		.section-title {
+			h1 {
+				color: $section-title-heading-alt-color;
+			}
+			
+			hr {
+				background-color: $section-title-line-alt-color;
+			}
+		}
+	}
+}
+
+.box-contents {
+	position: relative;
+	padding: $box-contents-padding;
+	display: block;
+	margin: $box-contents-margin;
+	
+	.box-icon {
+		padding-bottom: $box-contents-icon-bottom-gap;
+		text-align: center;
+		
+		i {
+			font-size: $box-contents-icon-size;
+			color: $box-contents-icon-color;
+			margin-right: 0 !important;
+		}
+	}
+	
+	.box-caption {
+		text-align: center;
+		
+		h4 {
+			font-size: $box-contents-heading-size;
+			font-weight: $box-contents-heading-font-weight;
+			font-family: $box-contents-heading-font-stack;
+			padding-bottom: $box-contents-heading-bottom-gap;
+			text-transform: $box-contents-heading-font-transform;
+			text-align: center;
+		}
+		
+		p {
+			font-size: $box-contents-caption-size;
+			line-height: $box-contents-caption-line-height;
+			color: $box-contents-caption-color;
+			text-align: center;
+		}
+	}
+}
+
+/* customized sections */
+
+.news {
+	background-color: $news-section-bgcolor;
+	color: $news-section-font-color;
+	
+	.section-title {
+		h1 {
+			text-align: center;
+			color: $news-section-heading-color;
+		}
+	}
+	
+}
+
+.news-item {
+	background-color: $news-item-bgcolor;
+    border: 1px solid $very-light;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    position: relative;
+	height: 475px;
+	
+	.news-item-details {
+		padding: 15px;
+		text-align: center;
+		
+		h3 {
+			font-family: $lato-font-stack;
+			text-transform: none;
+			font-weight: 400;
+			text-align: center;
+			color: $charcoal;
+			margin-bottom: 30px;
+			font-size: 18px;
+		}
+		
+		p {
+			color: $haiti;
+			line-height: 1.4;
+			font-size: 14px;
+			margin-bottom: 25px;
+		}
+		
+		a {
+			font-size: 16px;
+		}
+	}
+}
+
+.about-us {
+
+	.section-title {
+		h1 {
+			text-align: left;
+		}
+	}
+	
+	p {
+		font-size: 16px;
+		color: $haiti;
+		line-height: 1.4;
+		margin-bottom: 25px;
+	}
+	
+	a {
+			font-size: 16px;
+		}
+}
+
+.history {
+	
+	h4 {
+		font-family: $lato-font-stack;
+		margin-bottom: 10px;
+		text-transform: none;
+	}
+	
+	p {
+		margin: 0 0 10px;
+
+	}
+}
+
+.upcoming-events {
+	ul.events-list {
+		li {
+			position: relative;
+			padding: 5px 0;
+			
+			h4 {
+				font-size: 22px;
+				font-weight: 600;
+				margin-top: 0;
+				margin-bottom: 0;
+				text-transform: none;
+				font-family: $brand-font;
+				letter-spacing: 1px;
+				
+				&.date {
+					font-size: 15px;
+					font-weight: normal;
+				}
+			}
+			
+			p {
+				font-size: 15px;
+				margin: 0 0 10px;
+			}
+			
+			
+		}
+	}
+
+	table {
+		tbody {
+			tr {
+				td {
+					&:nth-child(1) {
+						text-transform: uppercase;
+					}
+					&:nth-child(2) {
+						font-weight: bold;
+						font-size: 17px;
+					}
+				}
+			}
+		}
+	}
+	
+	.events-table {
+		table {
+			tbody {
+				tr {
+					td {
+						padding: 3px 5px;
+						font-size: 15px;
+						text-transform: none;
+						
+						&.date {
+							text-transform: uppercase;
+						}
+						&.event {
+							font-weight: bold;
+							font-size: 16px;
+						}
+						&.venue {
+							padding-bottom: 15px;
+						}
+						&.view {
+							padding-bottom: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.photos-block {
+	position: relative;
+	padding: 0;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 250px;
+	
+	.project {
+		padding: 0;
+	}
+	
+	img {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.directors {
+	img {
+		height: 170px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	
+	.team-row {
+		margin-bottom: 30px;
+	}
+	
+	.team-details {
+		text-align: center;
+	
+		h4 {
+			font-family: $lato-font-stack;
+			font-size: 18px;
+			text-transform: none;
+			margin-bottom:0;
+			
+			&.text-center {
+				text-align: center !important;
+			}
+		}
+		
+		p {
+			&.text-center {
+				text-align: center !important;
+			}
+			
+		}
+	}
+	
+}
+
+
+.regional {
+
+	margin-bottom: 0;
+	
+	.chairman {
+		text-align: center;
+		
+		h4 {
+			font-family: $lato-font-stack;
+			font-size: 18px;
+			text-transform: none;
+			margin-bottom: 5px !important;
+		}
+		
+		p {
+			text-align: center !important;
+			margin-bottom: 30px !important;
+		}
+		
+	}
+}
+
+.mission {
+	h4 {
+		font-family: $lato-font-stack;
+		margin-bottom: 10px;
+		text-align: left;
+		text-transform: none;
+	}
+	
+	ul {
+		text-align: left;
+		padding-left: 20px;
+	}
+}
+
+.press-release, .current-issues, .chairs-report, .press-activities {
+	position: relative;
+
+	.press-item, .activity-item {
+		text-align: left;
+		margin-bottom: 15px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid $gainsboro-2;
+	
+		h4 {
+			color: $army-blue;
+			font-size: 20px;
+			text-transform: none;
+			letter-spacing: 1px;
+			margin-bottom: 10px;
+		}
+		
+		.news-date {
+			font-size: 13px;
+			color: $shady-grey;
+			margin-bottom: 10px;
+			
+			i {
+				margin-right: 10px;
+				
+			}
+		}
+		
+		.caption {
+			font-size: 13px;
+			line-height: 17px;
+			text-align: center;
+		}
+
+		h5 { // activity
+			color: $army-blue;
+			font-size: 17px;
+			letter-spacing: 1px;
+			text-align: center;
+			font-weight: normal;
+			margin-bottom: 10px;
+		}
+
+	}
+	
+	.chairs-item {
+		margin-bottom: 15px;
+		padding-bottom: 10px;
+	}
+
+	.chairs {
+		border-bottom: 0;
+	}
+}
+
+.current-issues {
+	.press-item {
+		p {
+			margin: 0 0 10px;
+
+			a {
+				margin-top: 10px;
+			}
+		}
+	}
+}
+
+.news-navigate {
+	li {
+		position: relative;
+		text-align: left;
+	}
+	img {
+		position: relative;
+		z-index: 99;
+	}
+	a {
+		position: absolute;
+		z-index: 999;
+		bottom: 40px;
+		left: 20px;
+		right: 20px;
+		color: #ddd;
+		font-size: 24px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+
+		&:hover {
+			color:#fff;
+			text-decoration: none;
+		}
+	}
+}
+
+.upcoming-events {
+	li {
+		padding: 5px 0;
+
+		.date {
+			font-size: 13px;
+    		color: #555;
+    		margin: 0 0 5px;
+
+    		i {
+    			margin-right: 10px;
+    		}
+		}
+
+		.title {
+			font-size: 18px;
+			line-height: 22px;
+			color: #036eac;
+			margin-top: 0;
+			margin-bottom: 5px;
+			letter-spacing: 1px;
+		}
+		.venue {
+			color: #333;
+			font-size: 15px;
+			margin: 0 0 10px;
+		}
+	}
+}
+
+.upcoming {
+	margin-bottom: 40px;
+}
+
+.contact-list {
+
+	li {
+		padding: 5px 0;
+	}
+	
+	i {
+		background: #4285F4;
+		height: 50px;
+		width: 50px;
+		padding: 10px;
+		color: #fff;
+		font-size: 28px;
+		border-radius: 25px;
+		text-align: center;
+	}
+	
+	span {
+		font-size: 24px;
+	}
+	
+}
+
+.slogan {
+	position: relative;
+	height: 250px;
+	padding: 45px 0 40px;
+	width: 100%;
+	margin-bottom: 0 !important;
+	
+	&.bg-slogan {
+		background-color: $slogan-background-color;
+		
+		&.home {
+			background: url(http://fictap.com.ph/assets/images/banner/midblur.jpg) no-repeat center -40px;
+			background-size: cover;
+		
+			p {
+				color: $white;
+				font-size: 38px;
+				line-height: 50px;
+				font-family: $source-font-stack;
+				text-align: center;
+				margin-bottom: 0 !important;
+			}
+		}
+		
+		&.regional-chairman {
+			background: url('../images/section/regionalchairman.jpg') no-repeat center -60px;
+			background-size: cover;
+			margin: 20px 0;
+			height: 400px;
+		}
+	}
+}
+
+.join-us {
+	position: relative;
+	display: block;
+	padding: 30px 20px;
+	background-color: $gainsboro;
+
+	.join-panel {
+		
+		padding: 20px;
+		color: $midnight;
+		font-size: 16px;
+
+		p {
+			margin: 0 0 30px;
+		}
+	}
+}
+
+.daily-activities {
+	background-color:$seizure;
+	color: $night-rider;
+}

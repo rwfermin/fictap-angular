@@ -1,0 +1,58 @@
+/*Style Rules for Site Footer*/
+footer {
+	color: $snow;
+	padding: 0;
+	
+	.top-footer {
+		background-color: $top-footer-background-color;
+		color: $top-footer-font-color;
+		padding: 20px 0 10px;
+		
+		.company-info {
+			i {
+				font-size: 16px;
+				color: $gainsboro-2;
+				margin-right: 8px;
+			}
+			
+			span {
+				font-size: 14px;
+				color: $seizure;
+				line-height: 14px;
+			}
+		}
+		
+		h4 {
+			color: $cream;
+		}
+		
+		a {
+			color: $gainsboro-2;
+			
+			&:hover, &:focus {
+				color: $white;
+				text-decoration: none;
+			}
+		}
+		
+		.latest-gallery {
+			img {
+				margin: 3px 1px;
+			}
+		}
+	}
+	
+	.bottom-footer {
+		background-color: $bottom-footer-background-color;
+		color: $bottom-footer-font-color;
+		font-size: 13px;
+		text-align: center;
+		padding: 10px 0;
+		
+		p {
+			margin: 0 !important;
+			text-align: center !important;
+		}
+	}
+
+}

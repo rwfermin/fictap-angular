@@ -1,0 +1,110 @@
+/* Main site brand styles */
+
+$brand-font: $source-font-stack;
+
+$body-default-text-color: $night-rider;
+$body-default-text-size: 16px;
+$body-default-link-color: $lochmara;
+$body-default-link-hover-color: $curious-blue;
+
+$top-head-background-color: $gainsboro;
+$top-head-font-color: $eclipse;
+$top-head-link-color: $eclipse;
+$top-head-link-hover-color: $night-rider;
+$top-head-vertical-padding:$main-heading-top-padding;
+
+$header-margin-bottom: $header-bottom-gap;
+
+$brand-logo-height: 80px;
+
+$nav-background-color: $whitesmoke;
+$nav-top-gap: 15px !important;
+$nav-font: $lato-font-stack;
+$nav-font-size: 16px;
+
+$nav-link-color: $night-rider;
+$nav-link-hover-color: $blacker;
+$nav-link-hover-bgcolor: transparent;
+$nav-link-active-color: $resolution-blue;
+$nav-link-active-bgcolor: transparent;
+$nav-link-active-font-weight: bold;
+
+$nav-brand-font: $montserrat-font-stack;
+$nav-brand-font-color: $white;
+$nav-brand-font-size: 30px;
+
+$nav-toggle-icon-bar-bgcolor: $white;
+$nav-toggle-icon-bar-hover-bgcolor: $whitesmoke;
+
+$contents-background-color: $white;
+
+$heading-font: $slab-font-stack;
+$heading-font-case: none;
+
+/* Slider */
+$slider-height: auto;
+$slider-bottom-gap: 20px;
+
+/*** BODY / CONTENTS ***/
+
+$contents-margin: $contents-margin-all;
+$contents-padding: $contents-padding-all;
+
+/* Section */
+$section-body-bgcolor: $white;
+$section-body-alt-bgcolor: $very-light-grey;
+$section-body-padding: $section-padding;
+$section-body-bottom-gap: 10px;
+
+/* Section - title */
+$section-title-margin: 0 0 40px;
+$section-title-padding: 0;
+$section-title-heading-font-size: 36px;
+$section-title-min-heading-font-size: 18px;
+$section-title-heading-default-color: $blacker;
+$section-title-heading-alt-color: $charcoal;
+
+$section-title-line-color: $egyptian-blue;
+$section-title-line-alt-color: $curious-blue;
+
+$section-title-greeting-font-size: 20px;
+$section-title-greeting-min-font-size: 15px;
+$section-title-greeting-font-stack: $lato-font-stack;
+
+/* Elements */
+
+$box-contents-padding: 20px;
+$box-contents-border: 1px solid $blacker;
+$box-contents-margin: 0 0 15px;
+$box-contents-icon-size: 32px;
+$box-contents-icon-bottom-gap: 25px;
+$box-contents-icon-color: $cerulean;
+$box-contents-heading-size: 24px;
+$box-contents-heading-font-stack: $lato-font-stack;
+$box-contents-heading-font-transform: none;
+$box-contents-heading-font-weight: 600;
+$box-contents-heading-bottom-gap: 15px;
+$box-contents-caption-size: 15px;
+$box-contents-caption-line-height: 1.5;
+$box-contents-caption-color: $gun-powder;
+
+/* Customized sections */
+
+$news-section-bgcolor: $cerulean;
+$news-section-font-color: $white;
+$news-section-heading-color: $cream;
+
+$news-item-bgcolor: $white;
+
+$parallax-banner-default-bgcolor: $nobel;
+
+
+/* Slogan backgrounds */
+$slogan-background-color: $army-blue;
+$about-background-color: $black;
+
+/* footer */
+$top-footer-background-color: $night-rider;
+$top-footer-font-color: $very-light;
+$bottom-footer-background-color: $nero;
+$bottom-footer-font-color: $shady-grey;

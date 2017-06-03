@@ -1,0 +1,184 @@
+/*-- Style Rules for Site Header and Navigation --*/
+/*Header*/
+
+// Top header
+.top-head {
+	background-color: $top-head-background-color;
+	color: $top-head-font-color;
+	padding: $top-head-vertical-padding;
+
+	a {
+		color: $top-head-link-color;
+
+		&:hover, &:focus {
+			color: $top-head-link-hover-color;
+		}
+
+		&:active {
+			color: $top-head-link-color;
+		}
+
+	}
+}
+
+// Navigation
+
+.navbar {
+	margin-bottom: 0;
+	border: 0;
+	border-radius: 0 !important;
+	padding: 7px 0;
+	min-height: $nav-height;
+}
+
+.navbar-default {
+	border: 0;
+	background-color: $nav-background-color;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	transition: all .35s;
+
+	.navbar-header {
+		.navbar-brand {
+			font-weight: 700;
+			color: $nav-brand-font-color;
+			font-family: $nav-brand-font;
+			font-size: $nav-brand-font-size;
+			height: $nav-brand-height;
+			padding: $nav-brand-padding;
+		}
+
+		.navbar-toggle {
+			border: 0;
+			position: absolute;
+			right: 0;
+			top: 20px;
+			margin-top: 0;
+			margin-bottom: 0;
+
+			
+		}
+		
+		.brand-img {
+			position: relative;
+			height: $brand-logo-height;
+		}
+	}
+
+	.nav {
+		margin-top: $nav-top-gap;
+		
+		li {
+			a {
+				font-family: $nav-font;
+				text-transform: uppercase;
+				font-size: $nav-font-size;
+				color: $nav-link-color;
+
+				&:hover, &:focus {
+					color: $nav-link-hover-color;
+					background-color: $nav-link-hover-bgcolor;
+				}
+
+				&:active {
+					color: $nav-link-active-color;
+					background-color: $nav-link-active-bgcolor;
+				}
+			}
+
+			&.active {
+				a {
+					color: $nav-link-active-color;
+					background-color: $nav-link-active-bgcolor;
+					font-weight: $nav-link-active-font-weight;
+				}
+			}
+
+		}
+	}
+
+	.navbar-nav {
+
+		.active {
+			a {
+				color: $nav-link-active-color;
+				background-color: $nav-link-active-bgcolor;
+				font-weight: $nav-link-active-font-weight;
+
+				&:hover, &:focus {
+					color: $nav-link-active-color;
+					background-color: $nav-link-active-bgcolor;
+					font-weight: $nav-link-active-font-weight;
+				}
+			}
+		}
+
+	}
+}
+
+.site-header {
+	display: block;
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-bottom: $header-margin-bottom;
+	
+	&.subpages {
+		height: 330px;
+		
+		.header-image {
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			margin-top: 85px;
+		}
+	}
+	
+	&.galleria {
+		height: 100px;
+		
+		
+	}
+}
+
+/* sections */
+.header-about {
+	background: url(../images/section/about.jpg) no-repeat center center;
+}
+
+.header-directors {
+	background: url(../images/section/directors.jpg) no-repeat center center;
+}
+
+.header-news {
+	background: url(../images/section/news.jpg) no-repeat center top;
+}
+
+.header-activities {
+	background: url(../images/section/dailyactivities.jpg) no-repeat center top;
+}
+
+.header-current {
+	background: url(../images/section/current.jpg) no-repeat center top;
+}
+
+.header-chairsreport {
+	background: url(../images/section/chairsreport.jpg) no-repeat center top;
+}
+
+.header-events {
+	background: url(../images/section/events.jpg) no-repeat center -15px;
+}
+
+.header-gallery {
+	background: url(../images/section/gallery.jpg) no-repeat center center;
+}
+
+.header-contact {
+	background: url(../images/section/contact.jpg) no-repeat center top;
+}
+
+.header-full {
+	height: 330px;
+	background-size: cover;
+}

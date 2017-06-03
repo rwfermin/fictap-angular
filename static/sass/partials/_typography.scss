@@ -1,0 +1,83 @@
+// TYPOGRAPHY STYLES
+body {
+    font-family: $brand-font;
+    color: $body-default-text-color;
+    font-size: $body-default-text-size;
+    font-weight: 400;
+    background: $white;
+    min-height: 100%;
+	letter-spacing: $body-spacing;
+    line-height: $body-line-height;
+}
+
+a {
+	color: $body-default-link-color;
+
+	&:hover, &:focus {
+		color: $body-default-link-hover-color;
+	}
+}
+
+nav {
+	ul {
+		li {
+			a {
+				color: $nav-link-color;
+
+				&:hover, &:focus {
+					color: $nav-link-hover-color;
+				}
+
+				&:active {
+					color: $nav-link-active-color;
+				}
+			}
+		}
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $heading-font;
+	font-weight: 600;
+	letter-spacing: $heading-spacing;
+	margin-top: 0;
+	text-transform: uppercase;
+	color: $blacker;
+	line-height: $heading-line-height;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+h3 {
+	font-size: 22px; 
+}
+
+h4 {
+	font-size: 18px; 
+}
+
+@media (min-width: 768px) {
+	h1 {
+		font-size: 38px;
+	}
+
+	h2 {
+		font-size: 32px; 
+	}
+
+	h3 {
+		font-size: 26px; 
+	}
+
+	h4 {
+		font-size: 24px; 
+	} 
+
+}
+
